@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+body{
+  background-color: rgb(235, 227, 227);
+}
+.item-form{
+  width: 50%;
+  margin:auto;
+  margin-top: 50px;
+  background-color: skyblue;
+  border-radius: 15px;
+  padding-bottom: 20px;
+}
+
+.item-form > h1 {
+  background-color: darkblue;
+  color: skyblue;
+  padding:5px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom: 2px solid darkblue;
+  padding-bottom: 12px;
+  text-transform: uppercase;
+}
+
+.item-form > ul > li{
+  color:darkblue;
+  font-size: 24px;
+}
+.item-form > form > input[type='text']{
+  width: 80%;
+  padding-left: 12px;
+  color:darkblue;
+  font-weight: bold;
+  border-bottom: 2px solid darkblue;
+} 
+
+.add-btn{
+  border:none;
+  padding:14px;
+  border:1px solid rgb(29, 2, 65);
+  color:white;
+  background-color: darkblue;
+}
+
+.add-btn:hover{
+  background-color:darkred;
+}
+
+.nav-wrapper{
+  background-color:darkblue;
+  border-bottom: 3px solid skyblue;
+}
+
+.list-item > li:hover{
+  text-decoration: line-through
+}
